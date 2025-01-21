@@ -10,18 +10,33 @@
     "start": "rasengan start"
   },
   "dependencies": {
-    "rasengan": "1.0.0-beta.46",
+    "@hookform/resolvers": "^3.10.0",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.4",
     "@rasenganjs/image": "^1.0.0",
+    "@tanstack/react-query": "^5.64.2",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "rasengan": "1.0.0-beta.46",
     "react": "^18.3.0",
-    "react-dom": "^18.3.0"
+    "react-dom": "^18.3.0",
+    "react-hook-form": "^7.54.2",
+    "react-spinners": "^0.15.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.1",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "cross-env": "^7.0.3",
-    "tailwindcss": "^3.3.5",
     "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
     "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
     "vite": "^5.2.0"
   }
 }
